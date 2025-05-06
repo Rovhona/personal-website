@@ -8,7 +8,7 @@ const ExperienceSection = () => {
             <div className="bg-white p-6 rounded-xl shadow-md">
               <div className="flex flex-col md:flex-row md:justify-between mb-4">
                 <h3 className="text-xl font-bold text-primary">Computer Science Tutor</h3>
-                <p className="text-gray-600">Feb 2024 – Present</p>
+                <p className="text-gray-600">Feb 2025 – Present</p>
               </div>
               <h4 className="text-lg font-medium mb-2">University of the Western Cape</h4>
               <ul className="list-disc pl-5 space-y-1 text-gray-700">
