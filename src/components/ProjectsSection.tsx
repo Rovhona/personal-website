@@ -51,7 +51,7 @@ const ProjectsSection = () => {
                 <h3 className="text-xl font-bold text-primary">Loan Eligibility Prediction System</h3>
                 <p className="text-gray-600">May 2025</p>
               </div>
-              <h4 className="text-lg font-medium mb-2">Streamlit ML Dashboard (Work in Progress)</h4>
+              <h4 className="text-lg font-medium mb-2">Streamlit ML Dashboard </h4>
               <p className="text-gray-700 mb-4">
                 Predicts loan approval using logistic regression and an interactive UI.
               </p>
@@ -62,11 +62,9 @@ const ProjectsSection = () => {
                 <li>
                   Shows prediction confidence, model metrics, and visual data insights.
                 </li>
+                
                 <li>
-                  Export to CSV and PDF supported. Real-time error handling included.
-                </li>
-                <li>
-                  🧪 <strong>Still under active development</strong>: refining model and UX.
+                  Utilizes logistic regression for binary classification of loan eligibility.
                 </li>
               </ul>
               <a
@@ -75,6 +73,13 @@ const ProjectsSection = () => {
                 className="inline-block mt-4 text-primary font-semibold hover:underline"
               >
                 🔗 View on GitHub
+              </a>
+              <a
+                href="https://rovhona-loan-eligibility-system-app-lr6p2d.streamlit.app/"
+                target="_blank"
+                className="inline-block mt-4 text-primary font-semibold hover:underline"
+              >
+                🔗 View website
               </a>
             </div>
           </div>
