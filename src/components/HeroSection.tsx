@@ -1,4 +1,3 @@
-
 import { Button } from "./ui/button";
 import { Download } from "lucide-react";
 
@@ -19,16 +18,17 @@ const HeroSection = () => {
               Hi, I'm Rovhona Mudau
             </h1>
             <p className="text-lg text-gray-600">
-              Honours Student in Computer Science specializing in Machine Learning, Software Development, and Artificial Intelligence
+              Honours Student in Computer Science specializing in Machine Learning, Software Development, and Artificial Intelligence.
             </p>
-            
-            <div className="flex gap-4 flex-wrap">
+
+            <div className="flex flex-wrap gap-4">
               <Button
                 onClick={() => scrollToSection("contact")}
                 className="bg-primary text-white rounded-lg hover:bg-blue-700 transition-colors"
               >
                 Contact Me
               </Button>
+
               <Button
                 onClick={() => scrollToSection("projects")}
                 variant="outline"
@@ -36,9 +36,19 @@ const HeroSection = () => {
               >
                 View Projects
               </Button>
-              
+
+              <a
+                href="/uploads/Rovhona_Mudau_Final_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg transition shadow"
+              >
+                <Download className="w-4 h-4" />
+                View CV
+              </a>
             </div>
           </div>
+
           <div className="flex justify-center md:justify-end">
             <img
               src="/uploads/Screenshot_20250416_175656_WhatsApp (1).jpg"
