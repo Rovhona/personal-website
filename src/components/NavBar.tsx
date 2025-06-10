@@ -4,12 +4,15 @@ import { Menu, X } from 'lucide-react';
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // ✅ Navigation menu items (with Beyond Tech)
   const menuItems = [
     { label: 'About', href: 'about' },
     { label: 'Experience', href: 'experience' },
     { label: 'Projects', href: 'projects' },
     { label: 'Education', href: 'education' },
+     // ✅ Added
     { label: 'Contact', href: 'contact' },
+    { label: 'Beyond Tech', href: 'personal' },
   ];
 
   const scrollToSection = (id: string) => {
@@ -38,7 +41,9 @@ const NavBar = () => {
               <a
                 key={item.label}
                 onClick={() => scrollToSection(item.href)}
-                className="text-gray-700 font-medium hover:text-blue-600 transition-colors cursor-pointer"
+                className={`text-gray-700 font-medium hover:text-blue-600 transition-colors cursor-pointer ${
+                  item.label === 'Beyond Tech' ? 'text-blue-500 font-semibold' : ''
+                }`}
               >
                 {item.label}
               </a>
@@ -62,7 +67,9 @@ const NavBar = () => {
               <a
                 key={item.label}
                 onClick={() => scrollToSection(item.href)}
-                className="block text-gray-700 font-medium px-2 py-2 rounded hover:bg-blue-100 transition cursor-pointer"
+                className={`block text-gray-700 font-medium px-2 py-2 rounded hover:bg-blue-100 transition cursor-pointer ${
+                  item.label === 'Beyond Tech' ? 'text-blue-500 font-semibold' : ''
+                }`}
               >
                 {item.label}
               </a>
