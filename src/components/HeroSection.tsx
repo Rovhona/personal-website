@@ -10,7 +10,10 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100" id="home">
+    <section
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100"
+      id="home"
+    >
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">

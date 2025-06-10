@@ -3,7 +3,7 @@ const ProjectsSection = () => {
     <section id="projects" className="py-24 bg-gradient-to-b from-white via-gray-100 to-white text-gray-900">
       <div className="container mx-auto px-6 max-w-6xl">
         <h2 className="text-5xl font-extrabold text-center mb-4 tracking-tight">
-          Selected Projects
+           Projects
         </h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto text-lg mb-16">
           Real-world, impact-driven projects that combine machine learning, software development, and user-focused design.
@@ -50,7 +50,7 @@ const ProjectsSection = () => {
             <div className="p-6 md:p-8">
               <div className="flex flex-col md:flex-row md:justify-between mb-2">
                 <h3 className="text-2xl font-bold text-blue-600">Loan Eligibility Prediction System</h3>
-                <p className="text-sm text-gray-500 mt-1 md:mt-0">May 2025 • Honours Project</p>
+                <p className="text-sm text-gray-500 mt-1 md:mt-0">May 2025 • Personal Project</p>
               </div>
               <p className="text-gray-700 mb-4">
                 An intelligent web-based dashboard built with Streamlit that predicts loan approvals using machine learning.
