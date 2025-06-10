@@ -8,6 +8,7 @@ import ProjectsSection from '@/components/ProjectsSection';
 import EducationSection from '@/components/EducationSection';
 import ContactSection from '@/components/ContactSection';
 import SkillsSection from '@/components/SkillsSection';
+import BeyondTechSection from '@/components/ui/BeyondTechSection';  
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <ProjectsSection />
       <EducationSection />
       <ContactSection />
+      <BeyondTechSection />
     </div>
   );
 };
