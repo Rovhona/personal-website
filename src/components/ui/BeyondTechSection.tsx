@@ -21,7 +21,7 @@ const BeyondTechSection = () => {
           transition={{ delay: 0.1, duration: 0.6 }}
           viewport={{ once: true }}
         >
-          When I’m not coding, mentoring, or exploring AI innovations, you’ll often find me watching football — especially Cristiano Ronaldo highlights.
+          When I’m not coding, mentoring, or exploring AI innovations, you’ll often find me watching football , especially Cristiano Ronaldo highlights.
         </motion.p>
 
         <motion.p
@@ -55,7 +55,7 @@ const BeyondTechSection = () => {
           transition={{ delay: 0.4, duration: 0.5 }}
           viewport={{ once: true }}
         >
-          "Talent without working hard is nothing." — Cristiano Ronaldo
+          "Talent without working hard is nothing." - Cristiano Ronaldo
         </motion.p>
       </div>
     </section>
