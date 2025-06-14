@@ -10,15 +10,15 @@ const AboutSection = () => {
         </p>
         <div className="text-[17px] leading-relaxed text-gray-800 space-y-6 text-justify">
           <p>
-            I'm a Computer Science Honours student at the University of the Western Cape with a strong foundation in full-stack development, machine learning, and cloud computing. My journey has been shaped by real-world experience — from building intelligent systems during internships to tutoring core computer science and mathematics concepts.
+            I'm a Computer Science Honours student at the University of the Western Cape with a strong foundation software engineering and machine learning. My journey has been shaped by real-world experience, from building intelligent systems during internships/hackathons to tutoring core computer science and mathematics concepts.
           </p>
 
           <p>
-            In 2024, I was part of the <span className="font-semibold text-blue-600">Standard Bank UniHack</span> team that designed an AI-powered health platform to improve healthcare access in underserved communities. This reinforced my belief in using technology for impact — solutions that are not only functional but also meaningful.
+            In 2024, I was part of the <span className="font-semibold text-blue-600">Standard Bank UniHack</span> team that designed an AI-powered health chatbot to improve healthcare access in underserved communities. This reinforced my belief in using technology for impact  solutions that are not only functional but also meaningful.
           </p>
 
           <p>
-            As the <span className="font-semibold text-blue-600">Treasurer of Geekulcha UWC</span>, I help foster a thriving student tech ecosystem through events, workshops, and collaboration. My leadership and teamwork experiences have taught me how to balance code with communication.
+            As the Treasurer of <span className="font-semibold text-blue-600">Geekulcha UWC student society</span>, I help foster a thriving student tech ecosystem through events, workshops, and collaboration. My leadership and teamwork experiences have taught me how to balance code with communication.
           </p>
 
           <p>

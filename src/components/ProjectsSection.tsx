@@ -19,7 +19,7 @@ const ProjectsSection = () => {
             />
             <div className="p-6 md:p-8">
               <div className="flex flex-col md:flex-row md:justify-between mb-2">
-                <h3 className="text-2xl font-bold text-blue-600">InnovativeHealth — UniHackers Team</h3>
+                <h3 className="text-2xl font-bold text-blue-600">InnovativeHealth - UniHackers Team</h3>
                 <p className="text-sm text-gray-500 mt-1 md:mt-0">July 2024 • Standard Bank UniHack</p>
               </div>
               <p className="text-gray-700 mb-4">
