@@ -45,7 +45,7 @@ const ExperienceSection = () => {
             <div className="bg-white p-6 rounded-xl shadow-md">
               <div className="flex flex-col md:flex-row md:justify-between mb-4">
                 <h3 className="text-xl font-bold text-primary">Treasurer</h3>
-                <p className="text-gray-600">Feb 2025 – Present</p>
+                <p className="text-gray-600">Feb 2025 – Jun 2025</p>
               </div>
               <h4 className="text-lg font-medium mb-2">Geekulcha UWC</h4>
               <ul className="list-disc pl-5 space-y-1 text-gray-700">
