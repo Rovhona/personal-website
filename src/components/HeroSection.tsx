@@ -1,5 +1,4 @@
 import { Button } from "./ui/button";
-import { Download } from "lucide-react";
 
 const HeroSection = () => {
   const scrollToSection = (id: string) => {
@@ -39,16 +38,6 @@ const HeroSection = () => {
               >
                 View Projects
               </Button>
-
-              <a
-                href="/uploads/Rovhona_Mudau_Final_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg transition shadow"
-              >
-                <Download className="w-4 h-4" />
-                View CV
-              </a>
             </div>
           </div>
 
