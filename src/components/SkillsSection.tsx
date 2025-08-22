@@ -19,8 +19,10 @@ import {
   Workflow,  // CI/CD
   LineChart, // Matplotlib
   Sigma,     // NumPy
-  Layers3,   // CNN representation
-  BookOpen,  // SDLC representation
+  Layers3,   // CNN
+  BookOpen,  // SDLC
+  HardDrive, // MariaDB
+  Leaf,      // MongoDB
 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -33,7 +35,7 @@ const SkillsSection = () => {
       { name: "C/C++", icon: <Cpu className="w-8 h-8" /> },
       { name: "SQL", icon: <Database className="w-8 h-8" /> },
       { name: "HTML/CSS", icon: <Layout className="w-8 h-8" /> },
-      { name: "Object-Oriented Programming (OOP)", icon: <Settings className="w-8 h-8" /> }, // ✅ Added
+      { name: "Object-Oriented Programming (OOP)", icon: <Settings className="w-8 h-8" /> },
     ],
     "Technologies & Frameworks": [
       { name: "Git & GitHub", icon: <Github className="w-8 h-8" /> },
@@ -43,8 +45,10 @@ const SkillsSection = () => {
       { name: "Vite", icon: <Layers className="w-8 h-8" /> },
       { name: "Docker", icon: <Box className="w-8 h-8" /> },
       { name: "DbGate", icon: <Server className="w-8 h-8" /> },
+      { name: "MariaDB", icon: <HardDrive className="w-8 h-8" /> },  // ✅ Added
+      { name: "MongoDB", icon: <Leaf className="w-8 h-8" /> },       // ✅ Added
       { name: "CI/CD", icon: <Workflow className="w-8 h-8" /> },
-      { name: "Software Development Life Cycle (SDLC)", icon: <BookOpen className="w-8 h-8" /> }, // ✅ Added
+      { name: "Software Development Life Cycle (SDLC)", icon: <BookOpen className="w-8 h-8" /> },
       { name: "TensorFlow.js", icon: <Brain className="w-8 h-8" /> },
       { name: "jsPDF / html2canvas", icon: <Settings className="w-8 h-8" /> },
       { name: "Cybersecurity Principles", icon: <Shield className="w-8 h-8" /> },
@@ -56,7 +60,7 @@ const SkillsSection = () => {
       { name: "SciKit-Learn", icon: <Brain className="w-8 h-8" /> },
       { name: "NumPy", icon: <Sigma className="w-8 h-8" /> },
       { name: "Matplotlib", icon: <LineChart className="w-8 h-8" /> },
-      { name: "Convolutional Neural Networks (CNN)", icon: <Layers3 className="w-8 h-8" /> }, // ✅ Added
+      { name: "Convolutional Neural Networks (CNN)", icon: <Layers3 className="w-8 h-8" /> },
       { name: "Image Classification", icon: <Cpu className="w-8 h-8" /> },
       { name: "Computer Vision", icon: <Brain className="w-8 h-8" /> },
       { name: "Process Automation", icon: <Settings className="w-8 h-8" /> },
