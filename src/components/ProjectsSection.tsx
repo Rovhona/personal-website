@@ -57,7 +57,7 @@ const ProjectsSection = () => {
                 alt="Loan Eligibility Dashboard Page 2"
                 className="w-full h-auto object-cover rounded-b-2xl md:rounded-bl-none"
               />
-            </div>
+            </div>c:\Users\4225313\OneDrive - University of the Western Cape\Pictures\Screenshots\Screenshot (223).png
             <div className="p-6 md:p-8">
               <div className="flex flex-col md:flex-row md:justify-between mb-2">
                 <h3 className="text-2xl font-bold text-blue-600">
@@ -100,56 +100,63 @@ const ProjectsSection = () => {
           </div>
 
           {/* Project 3: AI Resume Reviewer */}
-          <div className="bg-white border border-gray-200 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300">
-            <img
-              src="/uploads/screenshot-resume.png"
-              alt="AI Resume Reviewer Project"
-              className="w-full h-auto rounded-t-2xl object-cover"
-            />
-            <div className="p-6 md:p-8">
-              <div className="flex flex-col md:flex-row md:justify-between mb-2">
-                <h3 className="text-2xl font-bold text-blue-600">
-                  AI Resume Reviewer
-                </h3>
-                <p className="text-sm text-gray-500 mt-1 md:mt-0">
-                  Sept 2025 • Personal Project
-                </p>
-              </div>
-              <p className="text-gray-700 mb-4">
-                Full-stack app that provides AI-powered resume analysis, keyword
-                extraction, and tailored feedback to help candidates improve
-                their applications.
-              </p>
-              <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
-                <li>Built with Next.js frontend and FastAPI backend.</li>
-                <li>
-                  Uses <code>pdfplumber</code> and <code>python-docx</code> for
-                  parsing resumes in PDF/DOCX.
-                </li>
-                <li>
-                  Generates keyword relevance scoring and structured feedback
-                  reports.
-                </li>
-              </ul>
-              <div className="flex flex-wrap gap-4 mt-6">
-                <a
-                  href="https://github.com/Rovhona/ai-resume-reviewer"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block text-blue-600 font-medium hover:underline"
-                >
-                  🔗 GitHub Repository
-                </a>
-                <a
-                  href="https://ai-resume-reviewer-eight.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block text-blue-600 font-medium hover:underline"
-                >
-                  🔗 Live Demo
-                </a>
-              </div>
-            </div>
+<div className="bg-white border border-gray-200 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
+    <img
+      src="/uploads/Screenshot (222).png"
+      alt="AI Resume Reviewer Screenshot 1"
+      className="w-full h-auto object-cover rounded-t-2xl md:rounded-tr-none"
+    />
+    <img
+      src="/uploads/Screenshot (223).png"
+      alt="AI Resume Reviewer Screenshot 2"
+      className="w-full h-auto object-cover rounded-b-2xl md:rounded-bl-none"
+    />
+  </div>
+  <div className="p-6 md:p-8">
+    <div className="flex flex-col md:flex-row md:justify-between mb-2">
+      <h3 className="text-2xl font-bold text-blue-600">
+        AI Resume Reviewer
+      </h3>
+      <p className="text-sm text-gray-500 mt-1 md:mt-0">
+        Sept 2025 • Personal Project
+      </p>
+    </div>
+    <p className="text-gray-700 mb-4">
+      Full-stack app that provides AI-powered resume analysis, keyword
+      extraction, and tailored feedback to help candidates improve
+      their applications.
+    </p>
+    <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
+      <li>Built with Next.js frontend and FastAPI backend.</li>
+      <li>
+        Uses <code>pdfplumber</code> and <code>python-docx</code> for
+        parsing resumes in PDF/DOCX.
+      </li>
+      <li>
+        Generates keyword relevance scoring and structured feedback
+        reports.
+      </li>
+    </ul>
+    <div className="flex flex-wrap gap-4 mt-6">
+      <a
+        href="https://github.com/Rovhona/ai-resume-reviewer"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block text-blue-600 font-medium hover:underline"
+      >
+        🔗 GitHub Repository
+      </a>
+      <a
+        href="https://ai-resume-reviewer-eight.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block text-blue-600 font-medium hover:underline"
+      >
+        🔗 Live Demo
+      </a>
+    </div>
+  </div>
           </div>
         </div>
       </div>
