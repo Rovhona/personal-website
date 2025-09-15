@@ -1,12 +1,16 @@
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 bg-gradient-to-b from-white via-gray-100 to-white text-gray-900">
+    <section
+      id="projects"
+      className="py-24 bg-gradient-to-b from-white via-gray-100 to-white text-gray-900"
+    >
       <div className="container mx-auto px-6 max-w-6xl">
         <h2 className="text-5xl font-extrabold text-center mb-4 tracking-tight">
-           Projects
+          Projects
         </h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto text-lg mb-16">
-          Real-world, impact-driven projects that combine machine learning, software development, and user-focused design.
+          Real-world, impact-driven projects that combine machine learning,
+          software development, and user-focused design.
         </p>
 
         <div className="grid grid-cols-1 gap-14">
@@ -19,16 +23,25 @@ const ProjectsSection = () => {
             />
             <div className="p-6 md:p-8">
               <div className="flex flex-col md:flex-row md:justify-between mb-2">
-                <h3 className="text-2xl font-bold text-blue-600">InnovativeHealth - UniHackers Team</h3>
-                <p className="text-sm text-gray-500 mt-1 md:mt-0">July 2024 • Standard Bank UniHack</p>
+                <h3 className="text-2xl font-bold text-blue-600">
+                  InnovativeHealth - UniHackers Team
+                </h3>
+                <p className="text-sm text-gray-500 mt-1 md:mt-0">
+                  July 2024 • Standard Bank UniHack
+                </p>
               </div>
               <p className="text-gray-700 mb-4">
-                Built a health-tech platform leveraging an AI-powered chatbot to bridge healthcare access gaps in underserved communities.
+                Built a health-tech platform leveraging an AI-powered chatbot to
+                bridge healthcare access gaps in underserved communities.
               </p>
               <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
                 <li>Conversational AI for symptom checks and consultations.</li>
-                <li>Integrated medication delivery and appointment booking modules.</li>
-                <li>Developed in a 48-hour hackathon at Liberty Life, Cape Town.</li>
+                <li>
+                  Integrated medication delivery and appointment booking modules.
+                </li>
+                <li>
+                  Developed in a 48-hour hackathon at Liberty Life, Cape Town.
+                </li>
               </ul>
             </div>
           </div>
@@ -49,16 +62,27 @@ const ProjectsSection = () => {
             </div>
             <div className="p-6 md:p-8">
               <div className="flex flex-col md:flex-row md:justify-between mb-2">
-                <h3 className="text-2xl font-bold text-blue-600">Loan Eligibility Prediction System</h3>
-                <p className="text-sm text-gray-500 mt-1 md:mt-0">May 2025 • Personal Project</p>
+                <h3 className="text-2xl font-bold text-blue-600">
+                  Loan Eligibility Prediction System
+                </h3>
+                <p className="text-sm text-gray-500 mt-1 md:mt-0">
+                  May 2025 • Personal Project
+                </p>
               </div>
               <p className="text-gray-700 mb-4">
-                An intelligent web-based dashboard built with Streamlit that predicts loan approvals using machine learning.
+                An intelligent web-based dashboard built with Streamlit that
+                predicts loan approvals using machine learning.
               </p>
               <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
                 <li>Implements logistic regression for binary classification.</li>
-                <li>Interactive UI supports both batch (CSV) and individual predictions.</li>
-                <li>Displays model performance metrics, confidence scores, and visualizations.</li>
+                <li>
+                  Interactive UI supports both batch (CSV) and individual
+                  predictions.
+                </li>
+                <li>
+                  Displays model performance metrics, confidence scores, and
+                  visualizations.
+                </li>
               </ul>
               <div className="flex flex-wrap gap-4 mt-6">
                 <a
@@ -77,6 +101,54 @@ const ProjectsSection = () => {
                 >
                   🔗 Live App
                 </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 3: AI Resume Reviewer */}
+          <div className="bg-white border border-gray-200 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300">
+            <img
+              src="/uploads/screenshot-resume.png"
+              alt="AI Resume Reviewer Project"
+              className="w-full h-auto rounded-t-2xl object-cover"
+            />
+            <div className="p-6 md:p-8">
+              <div className="flex flex-col md:flex-row md:justify-between mb-2">
+                <h3 className="text-2xl font-bold text-blue-600">
+                  AI Resume Reviewer
+                </h3>
+                <p className="text-sm text-gray-500 mt-1 md:mt-0">
+                  Sept 2025 • Personal Project
+                </p>
+              </div>
+              <p className="text-gray-700 mb-4">
+                A full-stack web application that provides AI-powered resume
+                analysis, keyword extraction, and tailored feedback to help
+                candidates improve their applications.
+              </p>
+              <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
+                <li>
+                  Built with FastAPI (Python) backend and React.js frontend.
+                </li>
+                <li>
+                  Integrates <code>pdfplumber</code> and <code>python-docx</code>{" "}
+                  for parsing resumes in PDF and DOCX formats.
+                </li>
+                <li>
+                  Generates keyword relevance scoring and structured feedback
+                  reports.
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-4 mt-6">
+                <a
+                  href="https://github.com/Rovhona/AI-Resume-Reviewer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block text-blue-600 font-medium hover:underline"
+                >
+                  🔗 GitHub Repository
+                </a>
+                {/* Optional: Live demo link if you deploy */}
               </div>
             </div>
           </div>
