@@ -14,11 +14,11 @@ const ProjectsSection = () => {
         </p>
 
         <div className="grid grid-cols-1 gap-14">
-          {/* Project 1: Health Assistant */}
+          {/* Project 1: InnovativeHealth */}
           <div className="bg-white border border-gray-200 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300">
             <img
               src="/uploads/screenshot-health.png"
-              alt="Health Assistant Project"
+              alt="InnovativeHealth Project"
               className="w-full h-auto rounded-t-2xl object-cover"
             />
             <div className="p-6 md:p-8">
@@ -31,16 +31,14 @@ const ProjectsSection = () => {
                 </p>
               </div>
               <p className="text-gray-700 mb-4">
-                Built a health-tech platform leveraging an AI-powered chatbot to
-                bridge healthcare access gaps in underserved communities.
+                Health-tech platform leveraging an AI-powered chatbot to bridge
+                healthcare access gaps in underserved communities.
               </p>
               <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
                 <li>Conversational AI for symptom checks and consultations.</li>
+                <li>Medication delivery and appointment booking modules.</li>
                 <li>
-                  Integrated medication delivery and appointment booking modules.
-                </li>
-                <li>
-                  Developed in a 48-hour hackathon at Liberty Life, Cape Town.
+                  Built in 48 hours during a hackathon at Liberty Life, Cape Town.
                 </li>
               </ul>
             </div>
@@ -70,18 +68,14 @@ const ProjectsSection = () => {
                 </p>
               </div>
               <p className="text-gray-700 mb-4">
-                An intelligent web-based dashboard built with Streamlit that
-                predicts loan approvals using machine learning.
+                Web-based dashboard that predicts loan approvals using machine
+                learning, built with Streamlit.
               </p>
               <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
-                <li>Implements logistic regression for binary classification.</li>
+                <li>Logistic regression for binary classification.</li>
+                <li>Interactive UI supports batch (CSV) and single predictions.</li>
                 <li>
-                  Interactive UI supports both batch (CSV) and individual
-                  predictions.
-                </li>
-                <li>
-                  Displays model performance metrics, confidence scores, and
-                  visualizations.
+                  Displays model metrics, confidence scores, and visualizations.
                 </li>
               </ul>
               <div className="flex flex-wrap gap-4 mt-6">
@@ -122,17 +116,15 @@ const ProjectsSection = () => {
                 </p>
               </div>
               <p className="text-gray-700 mb-4">
-                A full-stack web application that provides AI-powered resume
-                analysis, keyword extraction, and tailored feedback to help
-                candidates improve their applications.
+                Full-stack app that provides AI-powered resume analysis, keyword
+                extraction, and tailored feedback to help candidates improve
+                their applications.
               </p>
               <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
+                <li>Built with Next.js frontend and FastAPI backend.</li>
                 <li>
-                  Built with FastAPI (Python) backend and React.js frontend.
-                </li>
-                <li>
-                  Integrates <code>pdfplumber</code> and <code>python-docx</code>{" "}
-                  for parsing resumes in PDF and DOCX formats.
+                  Uses <code>pdfplumber</code> and <code>python-docx</code> for
+                  parsing resumes in PDF/DOCX.
                 </li>
                 <li>
                   Generates keyword relevance scoring and structured feedback
@@ -141,14 +133,21 @@ const ProjectsSection = () => {
               </ul>
               <div className="flex flex-wrap gap-4 mt-6">
                 <a
-                  href="https://github.com/Rovhona/AI-Resume-Reviewer"
+                  href="https://github.com/Rovhona/ai-resume-reviewer"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block text-blue-600 font-medium hover:underline"
                 >
                   🔗 GitHub Repository
                 </a>
-                {/* Optional: Live demo link if you deploy */}
+                <a
+                  href="https://ai-resume-reviewer-eight.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block text-blue-600 font-medium hover:underline"
+                >
+                  🔗 Live Demo
+                </a>
               </div>
             </div>
           </div>
