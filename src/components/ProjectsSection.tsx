@@ -194,7 +194,7 @@ const ProjectsSection = () => {
               </ul>
               <div className="flex flex-wrap gap-4 mt-6">
                 <a
-                  href="https://github.com/Rovhona/QuizMaster"
+                  href="https://github.com/Rovhona/Quiz-Master"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block text-blue-600 font-medium hover:underline"
