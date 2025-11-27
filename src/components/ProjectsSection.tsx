@@ -268,6 +268,28 @@ const ProjectsSection = () => {
     </ul>
   </div>
 </div>
+{/* Project 7: AI Clinic Buddy */}
+<div className="bg-white border border-gray-200 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300">
+  <div className="p-6 md:p-8">
+    <div className="flex flex-col md:flex-row md:justify-between mb-2">
+      <h3 className="text-2xl font-bold text-blue-600">
+        AI Clinic Buddy
+      </h3>
+      <p className="text-sm text-gray-500 mt-1 md:mt-0">
+        2025 • Health AI Project
+      </p>
+    </div>
+    <p className="text-gray-700 mb-4">
+      AI-powered medical screening tool designed for rural South African clinics
+      to assist community health workers with symptom and image-based risk analysis.
+    </p>
+    <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
+      <li>MobileNetV2 image analysis for medical risk detection.</li>
+      <li>Symptom-based keyword detection and scoring.</li>
+      <li>Privacy-first processing with no data storage.</li>
+    </ul>
+  </div>
+</div>
 
       </div>
     </section>
