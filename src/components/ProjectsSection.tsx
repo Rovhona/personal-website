@@ -294,17 +294,41 @@ const ProjectsSection = () => {
         2025 • Health AI Project
       </p>
     </div>
+
     <p className="text-gray-700 mb-4">
       AI-powered medical screening tool designed for rural South African clinics
       to assist community health workers with symptom and image-based risk analysis.
     </p>
+
     <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
       <li>MobileNetV2 image analysis for medical risk detection.</li>
       <li>Symptom-based keyword detection and scoring.</li>
       <li>Privacy-first processing with no data storage.</li>
     </ul>
+
+    {/* ✅ GitHub + Live App Links Added */}
+    <div className="flex flex-wrap gap-4 mt-6">
+      <a
+        href="https://github.com/Rovhona/ai-clinic-buddy"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block text-blue-600 font-medium hover:underline"
+      >
+        🔗 GitHub Repository
+      </a>
+
+      <a
+        href="https://rovhona-ai-clinic-buddy-app-rnl49t.streamlit.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block text-blue-600 font-medium hover:underline"
+      >
+        🔗 Live App
+      </a>
+    </div>
   </div>
 </div>
+
 {/* Project 8: FreshQ Honours Project */}
 <div className="bg-white border border-gray-200 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300">
   <div className="p-6 md:p-8">
