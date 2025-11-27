@@ -210,9 +210,43 @@ const ProjectsSection = () => {
                   🔗 Live Demo
                 </a>
               </div>
+
             </div>
           </div>
         </div>
+        {/* Project 5: Evolutionary Password Generator */}
+<div className="bg-white border border-gray-200 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300">
+  <div className="p-6 md:p-8">
+    <div className="flex flex-col md:flex-row md:justify-between mb-2">
+      <h3 className="text-2xl font-bold text-blue-600">
+        Evolutionary Password Generator
+      </h3>
+      <p className="text-sm text-gray-500 mt-1 md:mt-0">
+        2025 • Cybersecurity & AI Project
+      </p>
+    </div>
+    <p className="text-gray-700 mb-4">
+      A cybersecurity system that uses evolutionary computing and AI-generated
+      code to create strong, unique password generators with custom encryption logic.
+    </p>
+    <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
+      <li>Custom cryptographic functions generated using TuringBot.</li>
+      <li>Tkinter desktop GUI with copy, validation, and real-time updates.</li>
+      <li>JavaScript web-based version of the generator.</li>
+    </ul>
+    <div className="flex flex-wrap gap-4 mt-6">
+      <a
+        href="https://github.com/Rovhona/COS738-Strong-Password-Generator"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block text-blue-600 font-medium hover:underline"
+      >
+        🔗 GitHub Repository
+      </a>
+    </div>
+  </div>
+</div>
+
       </div>
     </section>
   );
