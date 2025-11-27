@@ -246,6 +246,28 @@ const ProjectsSection = () => {
     </div>
   </div>
 </div>
+{/* Project 6: Big Data Engineering Capstone */}
+<div className="bg-white border border-gray-200 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300">
+  <div className="p-6 md:p-8">
+    <div className="flex flex-col md:flex-row md:justify-between mb-2">
+      <h3 className="text-2xl font-bold text-blue-600">
+        Big Data Engineering Capstone
+      </h3>
+      <p className="text-sm text-gray-500 mt-1 md:mt-0">
+        2025 • Academic Capstone
+      </p>
+    </div>
+    <p className="text-gray-700 mb-4">
+      End-to-end batch and real-time data engineering system analyzing YouTube
+      trends and live e-commerce transactions using Kafka.
+    </p>
+    <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
+      <li>Batch analytics on 40,000+ YouTube video records.</li>
+      <li>Real-time Kafka streaming for 541,000+ transactions.</li>
+      <li>Containerized data pipelines with Docker.</li>
+    </ul>
+  </div>
+</div>
 
       </div>
     </section>
