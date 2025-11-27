@@ -32,46 +32,52 @@ const SkillsSection = () => {
   const skills = {
     "Core Programming Languages": [
       { name: "Python", icon: <Code2 className="w-8 h-8" /> },
-      { name: "JavaScript", icon: <Binary className="w-8 h-8" /> },
+      { name: "JavaScript / TypeScript", icon: <Binary className="w-8 h-8" /> },
       { name: "Java", icon: <Terminal className="w-8 h-8" /> },
-      { name: "C/C++", icon: <Cpu className="w-8 h-8" /> },
+      { name: "C / C++", icon: <Cpu className="w-8 h-8" /> },
       { name: "SQL", icon: <Database className="w-8 h-8" /> },
-      { name: "HTML/CSS", icon: <Layout className="w-8 h-8" /> },
-      { name: "Object-Oriented Programming (OOP)", icon: <Settings className="w-8 h-8" /> },
+      { name: "HTML / CSS", icon: <Layout className="w-8 h-8" /> },
     ],
+  
     "Technologies & Frameworks": [
-      { name: "FastAPI", icon: <Zap className="w-8 h-8" /> },            // ✅ New
+      { name: "FastAPI", icon: <Zap className="w-8 h-8" /> },
       { name: "React.js", icon: <Atom className="w-8 h-8" /> },
       { name: "Vite", icon: <Layers className="w-8 h-8" /> },
+      { name: "Streamlit", icon: <Globe className="w-8 h-8" /> },
       { name: "Docker", icon: <Box className="w-8 h-8" /> },
       { name: "Git & GitHub", icon: <Github className="w-8 h-8" /> },
-      { name: "Frontend Deployment", icon: <Globe className="w-8 h-8" /> },
-      { name: "DbGate", icon: <Server className="w-8 h-8" /> },
+      { name: "CI/CD Pipelines", icon: <Workflow className="w-8 h-8" /> },
       { name: "MariaDB", icon: <HardDrive className="w-8 h-8" /> },
       { name: "MongoDB", icon: <Leaf className="w-8 h-8" /> },
-      { name: "CI/CD", icon: <Workflow className="w-8 h-8" /> },
-      { name: "Software Development Life Cycle (SDLC)", icon: <BookOpen className="w-8 h-8" /> },
-      { name: "TensorFlow.js", icon: <Brain className="w-8 h-8" /> },
-      { name: "jsPDF / html2canvas", icon: <Settings className="w-8 h-8" /> },
-      { name: "Cybersecurity Principles", icon: <Shield className="w-8 h-8" /> },
-      { name: "Database Systems", icon: <Database className="w-8 h-8" /> },
-      { name: "Version Control", icon: <GitBranch className="w-8 h-8" /> },
     ],
-    "Advanced Competencies": [
-      { name: "Resume Parsing (pdfplumber, python-docx)", icon: <FileText className="w-8 h-8" /> }, // ✅ New
+  
+    "Machine Learning & AI": [
       { name: "Machine Learning", icon: <Brain className="w-8 h-8" /> },
-      { name: "SciKit-Learn", icon: <Brain className="w-8 h-8" /> },
+      { name: "Scikit-Learn", icon: <Brain className="w-8 h-8" /> },
+      { name: "TensorFlow / TensorFlow.js", icon: <Brain className="w-8 h-8" /> },
+      { name: "Convolutional Neural Networks (CNN)", icon: <Layers3 className="w-8 h-8" /> },
+      { name: "Computer Vision", icon: <Cpu className="w-8 h-8" /> },
+      { name: "Image Classification", icon: <Cpu className="w-8 h-8" /> },
+    ],
+  
+    "Data Science & Engineering": [
       { name: "NumPy", icon: <Sigma className="w-8 h-8" /> },
       { name: "Matplotlib", icon: <LineChart className="w-8 h-8" /> },
-      { name: "Convolutional Neural Networks (CNN)", icon: <Layers3 className="w-8 h-8" /> },
-      { name: "Image Classification", icon: <Cpu className="w-8 h-8" /> },
-      { name: "Computer Vision", icon: <Brain className="w-8 h-8" /> },
+      { name: "Exploratory Data Analysis (EDA)", icon: <LineChart className="w-8 h-8" /> },
+      { name: "Kafka Streaming", icon: <Server className="w-8 h-8" /> },
+      { name: "Real-Time & Batch Pipelines", icon: <Server className="w-8 h-8" /> },
+    ],
+  
+    "Automation, Security & Systems": [
+      { name: "Resume Parsing (pdfplumber, python-docx)", icon: <FileText className="w-8 h-8" /> },
+      { name: "PDF Automation (jsPDF, html2canvas)", icon: <Settings className="w-8 h-8" /> },
+      { name: "Cybersecurity Principles", icon: <Shield className="w-8 h-8" /> },
+      { name: "SDLC & System Design", icon: <BookOpen className="w-8 h-8" /> },
       { name: "Process Automation", icon: <Settings className="w-8 h-8" /> },
-      { name: "Matlab", icon: <Code2 className="w-8 h-8" /> },
       { name: "R Programming", icon: <Binary className="w-8 h-8" /> },
     ],
   };
-
+  
   return (
     <section
       id="skills"
