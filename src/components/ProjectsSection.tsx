@@ -290,6 +290,28 @@ const ProjectsSection = () => {
     </ul>
   </div>
 </div>
+{/* Project 8: FreshQ Honours Project */}
+<div className="bg-white border border-gray-200 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300">
+  <div className="p-6 md:p-8">
+    <div className="flex flex-col md:flex-row md:justify-between mb-2">
+      <h3 className="text-2xl font-bold text-blue-600">
+        FreshQ – Quality Index Prediction
+      </h3>
+      <p className="text-sm text-gray-500 mt-1 md:mt-0">
+        2025 • Honours Project
+      </p>
+    </div>
+    <p className="text-gray-700 mb-4">
+      Smart produce quality assessment system that predicts fruit and vegetable
+      freshness using convolutional neural networks.
+    </p>
+    <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
+      <li>Fresh vs Rotten image classification using CNN.</li>
+      <li>Web-based prediction interface.</li>
+      <li>Automated PDF reporting and shelf-life estimation.</li>
+    </ul>
+  </div>
+</div>
 
       </div>
     </section>
