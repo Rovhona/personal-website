@@ -291,7 +291,7 @@ const ProjectsSection = () => {
         AI Clinic Buddy
       </h3>
       <p className="text-sm text-gray-500 mt-1 md:mt-0">
-        2025 • Health AI Project
+        2025 • GEW25 AI Driven Innovation Hackathon
       </p>
     </div>
 
