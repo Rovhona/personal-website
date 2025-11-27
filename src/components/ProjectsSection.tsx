@@ -257,17 +257,32 @@ const ProjectsSection = () => {
         2025 • Academic Capstone
       </p>
     </div>
+
     <p className="text-gray-700 mb-4">
       End-to-end batch and real-time data engineering system analyzing YouTube
       trends and live e-commerce transactions using Kafka.
     </p>
+
     <ul className="list-disc pl-5 space-y-1 text-gray-800 text-[15px]">
       <li>Batch analytics on 40,000+ YouTube video records.</li>
       <li>Real-time Kafka streaming for 541,000+ transactions.</li>
       <li>Containerized data pipelines with Docker.</li>
     </ul>
+
+    {/* ✅ GitHub Link Added */}
+    <div className="flex flex-wrap gap-4 mt-6">
+      <a
+        href="https://github.com/Rovhona/data-engineering-project"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block text-blue-600 font-medium hover:underline"
+      >
+        🔗 GitHub Repository
+      </a>
+    </div>
   </div>
 </div>
+
 {/* Project 7: AI Clinic Buddy */}
 <div className="bg-white border border-gray-200 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300">
   <div className="p-6 md:p-8">
