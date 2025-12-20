@@ -13,11 +13,7 @@ const AboutSection = () => {
         </p>
         <div className="text-[17px] leading-relaxed text-gray-800 space-y-6 text-justify">
           <p>
-            I’m a Computer Science Honours student at the University of the
-            Western Cape with a strong foundation in software engineering and
-            machine learning. My journey spans building intelligent systems,
-            academic research, and tutoring core computer science and
-            mathematics.
+            I’m a Computer Science Honours graduate.
           </p>
 
         
