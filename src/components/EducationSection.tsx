@@ -16,7 +16,7 @@ const EducationSection = () => {
               <h3 className="text-2xl font-bold text-blue-600">
                 BSc Honours in Computer Science
               </h3>
-              <p className="text-sm text-gray-500">Feb 2025 – Present</p>
+              <p className="text-sm text-gray-500">Feb 2025 – Nov 2025</p>
             </div>
             <h4 className="text-lg font-medium mb-1">
               University of the Western Cape — Cape Town, South Africa
