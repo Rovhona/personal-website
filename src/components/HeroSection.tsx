@@ -20,7 +20,7 @@ const HeroSection = () => {
               Hi, I'm Rovhona Mudau
             </h1>
             <p className="text-lg text-gray-600">
-              Honours Student in Computer Science.
+              Honours Graduate in Computer Science.
             </p>
 
             <div className="flex flex-wrap gap-4">
